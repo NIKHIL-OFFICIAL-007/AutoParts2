@@ -102,3 +102,36 @@ CREATE TABLE reviews (
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (order_id) REFERENCES orders(id)
 );
+
+
+
+
+
+
+
+INSERT INTO brands (id, name, description, created_at) VALUES
+('Exide', '', NOW()),
+('Bosch', '', NOW()),
+('TVS', '', NOW()),
+('MRF', '', NOW()),
+('Hella', '', NOW()),
+('Sony', '', NOW()),
+('3D MAXpider', '', NOW()),
+('Brembo', '', NOW()),
+('Delphi', '', NOW()),
+('Momo', '', NOW()),
+('Monroe', '', NOW()),
+('Febi', '', NOW()),
+('OEM', '', NOW()),
+('Depo', '', NOW());
+
+
+INSERT INTO categories (name, description, created_at, updated_at) VALUES
+('Batteries',   'Car batteries and related accessories', NOW(), NOW()),
+('Engine',      'Engine parts and components',            NOW(), NOW()),
+('Brakes',      'Brake systems and parts',                NOW(), NOW()),
+('Electrical',  'Electrical components and wiring',       NOW(), NOW()),
+('Lighting',    'Lights and lighting systems',            NOW(), NOW()),
+('Suspension',  'Suspension components',                  NOW(), NOW()),
+('Interior',    'Interior parts and accessories',         NOW(), NOW());
+
