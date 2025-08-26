@@ -135,3 +135,20 @@ INSERT INTO categories (name, description, created_at, updated_at) VALUES
 ('Suspension',  'Suspension components',                  NOW(), NOW()),
 ('Interior',    'Interior parts and accessories',         NOW(), NOW());
 
+
+INSERT INTO users (full_name, email, password, role) VALUES
+('AutoZone India', 'autozone@example.com', 'password123', 'seller'),
+('Bosch Spares India', 'bosch@example.com', 'password123', 'seller'),
+('TVS Spares Hub', 'tvs@example.com', 'password123', 'seller'),
+('MRF Tyre Center', 'mrf@example.com', 'password123', 'seller'),
+('AutoCare Solutions', 'autocare@example.com', 'password123', 'seller'),
+('Car Light Experts', 'carlight@example.com', 'password123', 'seller'),
+('Audio Garage', 'audiogarage@example.com', 'password123', 'seller'),
+('Car Decor India', 'cardecor@example.com', 'password123', 'seller'),
+('Performance Parts India', 'performance@example.com', 'password123', 'seller'),
+('Engine Parts Hub', 'engineparts@example.com', 'password123', 'seller'),
+('Performance Steering Co.', 'steering@example.com', 'password123', 'seller'),
+('Suspension Experts', 'suspension@example.com', 'password123', 'seller'),
+('Body Parts Depot', 'bodyparts@example.com', 'password123', 'seller'),
+('Auto Body Parts', 'autobody@example.com', 'password123', 'seller');
+
